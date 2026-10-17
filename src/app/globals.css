@@ -8,67 +8,67 @@ body {
 
 @layer base {
   :root {
-    /* Light Theme - Base Variables */
-    --background-light: 0 0% 96%; /* Off-White/Very Light Gray */
-    --foreground-light: 0 0% 4%; /* Deep Obsidian Black */
-    --card-light: 0 0% 100%; /* White */
-    --card-foreground-light: 0 0% 4%; /* Deep Obsidian Black */
-    --popover-light: 0 0% 100%; /* White */
-    --popover-foreground-light: 0 0% 4%; /* Deep Obsidian Black */
-    --primary-light: 260 100% 62%; /* Resonant Amethyst (slightly darker for light bg) */
-    --primary-foreground-light: 0 0% 98%; /* White/Very Light Gray */
-    --secondary-light: 169 100% 45%; /* Frequency Teal (slightly darker for light bg) */
-    --secondary-foreground-light: 0 0% 98%; /* White/Very Light Gray */
-    --muted-light: 0 0% 90%; /* Light Muted Gray */
-    --muted-foreground-light: 0 0% 30%; /* Darker Muted Gray */
-    --accent-light: 51 100% 50%; /* Royal Solar Gold */
-    --accent-foreground-light: 0 0% 4%; /* Deep Obsidian Black */
+    /* OMEGA-9 Cosmic Light Theme */
+    --background-light: 234 40% 96%; /* Light Starlight */
+    --foreground-light: 240 33% 5%; /* Space Dark */
+    --card-light: 234 50% 99%; /* Near-white with blue tint */
+    --card-foreground-light: 240 33% 5%; /* Space Dark */
+    --popover-light: 234 50% 99%; /* Near-white with blue tint */
+    --popover-foreground-light: 240 33% 5%; /* Space Dark */
+    --primary-light: 291 47% 45%; /* Royal Purple (darker for light bg) */
+    --primary-foreground-light: 234 100% 98%; /* Starlight White */
+    --secondary-light: 187 65% 40%; /* Starlight Cyan (darker for light bg) */
+    --secondary-foreground-light: 234 100% 98%; /* Starlight White */
+    --muted-light: 234 20% 90%; /* Light Muted Blue-gray */
+    --muted-foreground-light: 240 20% 35%; /* Darker Muted Purple-gray */
+    --accent-light: 46 100% 45%; /* Cosmic Gold (darker for light bg) */
+    --accent-foreground-light: 240 33% 5%; /* Space Dark */
     --destructive-light: 0 84% 60%; /* Standard Red */
-    --destructive-foreground-light: 0 0% 98%; /* White/Very Light Gray */
-    --border-light: 0 0% 85%; /* Light Border */
-    --input-light: 0 0% 92%; /* Light Input */
-    --ring-light: 260 100% 68%; /* Resonant Amethyst */
+    --destructive-foreground-light: 0 0% 98%; /* White */
+    --border-light: 234 20% 85%; /* Light Blue-tinted Border */
+    --input-light: 234 20% 92%; /* Light Blue-tinted Input */
+    --ring-light: 291 47% 50%; /* Royal Purple */
 
-    --positive-light: 169 100% 50%; /* Frequency Teal */
+    --positive-light: 187 65% 40%; /* Starlight Cyan */
     --negative-light: 0 84% 60%; /* Standard Red */
-    --neutral-light: 260 100% 68%; /* Resonant Amethyst */
+    --neutral-light: 291 47% 45%; /* Royal Purple */
 
-    --chart-1-light: 51 100% 50%; /* Royal Solar Gold */
-    --chart-2-light: 169 100% 50%; /* Frequency Teal */
-    --chart-3-light: 260 100% 68%; /* Resonant Amethyst */
-    --chart-4-light: 169 100% 65%; /* Lighter Teal */
-    --chart-5-light: 260 100% 75%; /* Lighter Amethyst */
+    --chart-1-light: 46 100% 50%; /* Cosmic Gold */
+    --chart-2-light: 187 65% 45%; /* Starlight Cyan */
+    --chart-3-light: 291 47% 50%; /* Royal Purple */
+    --chart-4-light: 186 80% 45%; /* Starlight Cyan Glow */
+    --chart-5-light: 291 80% 55%; /* Eye Glow Purple */
 
-    /* Dark Theme - Base Variables */
-    --background-dark: 0 0% 4%; /* Deep Obsidian Black */
-    --foreground-dark: 0 0% 89%; /* Ethereal Smoke */
-    --card-dark: 0 0% 8%; /* Slightly Lighter Obsidian */
-    --card-foreground-dark: 0 0% 89%; /* Ethereal Smoke */
-    --popover-dark: 0 0% 6%; /* Darker Obsidian */
-    --popover-foreground-dark: 0 0% 89%; /* Ethereal Smoke */
-    --primary-dark: 260 100% 68%; /* Resonant Amethyst */
-    --primary-foreground-dark: 0 0% 98%; /* White/Very Light Gray */
-    --secondary-dark: 169 100% 50%; /* Frequency Teal */
-    --secondary-foreground-dark: 0 0% 4%; /* Deep Obsidian Black (for contrast on Teal) */
-    --muted-dark: 0 0% 12%; /* Darker Muted Gray */
-    --muted-foreground-dark: 0 0% 50%; /* Lighter Muted Gray */
-    --accent-dark: 51 100% 50%; /* Royal Solar Gold */
-    --accent-foreground-dark: 0 0% 4%; /* Deep Obsidian Black (for contrast on Gold) */
+    /* OMEGA-9 Cosmic Dark Theme */
+    --background-dark: 240 33% 5%; /* Space Dark Background (#090912) */
+    --foreground-dark: 234 100% 98%; /* Starlight White (#F5F6FF) */
+    --card-dark: 240 33% 11%; /* Obsidian Surface (#131326) */
+    --card-foreground-dark: 234 100% 98%; /* Starlight White */
+    --popover-dark: 240 35% 8%; /* Darker Obsidian (purple-tinted) */
+    --popover-foreground-dark: 234 100% 98%; /* Starlight White */
+    --primary-dark: 291 47% 60%; /* Royal Purple Primary (#BA68C8) */
+    --primary-foreground-dark: 234 100% 98%; /* Starlight White */
+    --secondary-dark: 187 71% 59%; /* Starlight Cyan (#4DD0E1) */
+    --secondary-foreground-dark: 240 33% 5%; /* Space Dark (for contrast on Cyan) */
+    --muted-dark: 242 32% 14%; /* Dark Obsidian Variant */
+    --muted-foreground-dark: 240 20% 55%; /* Muted Starlight */
+    --accent-dark: 46 100% 65%; /* Cosmic Gold Primary (#FFD54F) */
+    --accent-foreground-dark: 240 33% 5%; /* Space Dark (for contrast on Gold) */
     --destructive-dark: 0 79% 56%; /* Red */
-    --destructive-foreground-dark: 0 0% 98%; /* White/Very Light Gray */
-    --border-dark: 0 0% 15%; /* Dark Border */
-    --input-dark: 0 0% 10%; /* Dark Input */
-    --ring-dark: 260 100% 75%; /* Lighter Amethyst */
+    --destructive-foreground-dark: 234 100% 98%; /* Starlight White */
+    --border-dark: 240 20% 18%; /* Purple-tinted Dark Border */
+    --input-dark: 240 33% 8%; /* Dark Obsidian Input */
+    --ring-dark: 291 96% 62%; /* Eye Glow Purple (#E040FB) */
 
-    --positive-dark: 169 100% 50%; /* Frequency Teal */
+    --positive-dark: 187 71% 59%; /* Starlight Cyan */
     --negative-dark: 0 79% 56%; /* Red */
-    --neutral-dark: 260 100% 68%; /* Resonant Amethyst */
+    --neutral-dark: 291 47% 60%; /* Royal Purple */
 
-    --chart-1-dark: 51 100% 50%; /* Royal Solar Gold */
-    --chart-2-dark: 169 100% 50%; /* Frequency Teal */
-    --chart-3-dark: 260 100% 68%; /* Resonant Amethyst */
-    --chart-4-dark: 169 100% 65%; /* Lighter Teal */
-    --chart-5-dark: 260 100% 75%; /* Lighter Amethyst */
+    --chart-1-dark: 46 100% 65%; /* Cosmic Gold Primary */
+    --chart-2-dark: 187 71% 59%; /* Starlight Cyan */
+    --chart-3-dark: 291 47% 60%; /* Royal Purple Primary */
+    --chart-4-dark: 186 100% 50%; /* Starlight Cyan Glow */
+    --chart-5-dark: 291 96% 62%; /* Eye Glow Purple */
 
     --radius: 0.5rem;
 
@@ -104,13 +104,13 @@ body {
     --chart-5: var(--chart-5-light);
 
     /* Sidebar uses light theme variables by default */
-    --sidebar-background: 0 0% 98%; /* Similar to light bg muted */
-    --sidebar-foreground: 0 0% 15%; /* Darker text */
+    --sidebar-background: 234 30% 97%; /* Light Starlight */
+    --sidebar-foreground: 240 33% 15%; /* Dark Purple-gray */
     --sidebar-primary: var(--primary-light);
     --sidebar-primary-foreground: var(--primary-foreground-light);
     --sidebar-accent: var(--accent-light);
     --sidebar-accent-foreground: var(--accent-foreground-light);
-    --sidebar-border: 0 0% 91%;
+    --sidebar-border: 234 20% 90%;
     --sidebar-ring: var(--ring-light);
   }
 
@@ -146,13 +146,13 @@ body {
     --chart-5: var(--chart-5-dark);
 
     /* Sidebar specific dark theme overrides */
-    --sidebar-background: 0 0% 6%; /* Slightly darker than card-dark */
-    --sidebar-foreground: 0 0% 80%; /* Lighter text for sidebar */
+    --sidebar-background: 240 33% 7%; /* Darker Obsidian Surface */
+    --sidebar-foreground: 234 80% 80%; /* Lighter Starlight for sidebar */
     --sidebar-primary: var(--primary-dark);
     --sidebar-primary-foreground: var(--primary-foreground-dark);
-    --sidebar-accent: 260 100% 75%; /* Lighter Amethyst for hover/accent */
-    --sidebar-accent-foreground: 0 0% 4%; /* Obsidian on lighter Amethyst */
-    --sidebar-border: 0 0% 12%;
+    --sidebar-accent: 291 96% 62%; /* Eye Glow Purple for hover/accent */
+    --sidebar-accent-foreground: 240 33% 5%; /* Space Dark on Eye Glow */
+    --sidebar-border: 240 20% 14%;
     --sidebar-ring: var(--ring-dark);
   }
 }
@@ -163,6 +163,8 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    background-image: radial-gradient(ellipse at top, hsl(242 32% 12%) 0%, hsl(var(--background)) 55%);
+    background-attachment: fixed;
   }
 }
 
